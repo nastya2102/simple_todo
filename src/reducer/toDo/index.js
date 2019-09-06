@@ -4,13 +4,12 @@ import {
 } from './constant';
 
 const newPoint = {
- name: 'Type something...', status: false
+ name: '', status: false
 };
 
 const initialState = {
     todo:  localStorage.getItem('todo') ? JSON.parse(localStorage.getItem('todo')) : []
 };
-
 
 export default function (state = initialState, action) {
   switch (action.type) {
@@ -19,7 +18,7 @@ export default function (state = initialState, action) {
       return {...state, todo: newTodo};
     }
     case SUCCESS_CHANGE_POINT: {
-      const newTodo =  state.todo.map((point)=> point.id ===  action.payload.id ? {...point, status: action.payload.status }: point);
+      const newTodo =  state.todo.map((point)=> point.id ===  action.payload.id ? {...point, status: action.payload.status, name: action.payload.name }: point);
       return {...state, todo: newTodo};
     }
     default:

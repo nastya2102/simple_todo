@@ -3,10 +3,12 @@ import './style.css'
 
 function Point(props) {
   const setName  = (event) => {
+    if (props.status) return;
     props.updatePoint({ ...props, ...{name: event.target.value}})
   };
 
   const setPointStatus  = () => {
+    if (!props.name.length) return;
     props.updatePoint({ ...props, ...{status: !props.status}})
   };
 
@@ -20,6 +22,8 @@ function Point(props) {
     <input value={props.name}
            onChange={setName}
            className={getClassPoint(props.status)}
+           placeholder="Type something..."
+           disabled={props.status}
   />
     <span
       onClick={setPointStatus}

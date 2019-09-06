@@ -10,6 +10,8 @@
 }
 .done-input{
     text-decoration: line-through;
+    background-color: white;
+    color: black;
 }
 .point-container {
     width: 400px;
