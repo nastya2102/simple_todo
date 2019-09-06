@@ -7,10 +7,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import reducer from './reducer';
 
-const store = createStore(reducer);
+const initialState = {
+  todo:  localStorage.getItem('todo') ? JSON.parse(localStorage.getItem('todo')) : []
+};
+
+const store = createStore(reducer, initialState);
 
 store.subscribe(() => {
-  localStorage.setItem('todo', JSON.stringify(store.getState().todo.todo))
+  localStorage.setItem('todo', JSON.stringify(store.getState().todo))
 });
 
 ReactDOM.render(<Provider store={store}>

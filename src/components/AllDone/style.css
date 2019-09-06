@@ -1,6 +1,6 @@
 .db{
+    cursor: url('https://img.icons8.com/dusk/2x/heart-with-mouse.png'), auto;
     background-image: url("https://i.giphy.com/media/ZUEaJDyaHNP5m/200w.webp");
-    display: block;
 }
 .dn {
     background-image: url("https://i.giphy.com/media/3Ejml35FgDnGg/giphy.webp");

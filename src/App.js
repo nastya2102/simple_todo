@@ -8,7 +8,7 @@ import AllDone from './components/AllDone';
 
 function App() {
   const dispatch = useDispatch();
-  const list = useSelector(state => state.todo.todo);
+  const list = useSelector(state => state.todo);
 
   const addPoint = useCallback(() => {
     dispatch(addTodo(list))
@@ -31,7 +31,7 @@ function App() {
       </div>
       <div>
         <div className="all-done">
-          <AllDone visible={list.length && list.filter(p => p.status).length === list.length}/>
+          <AllDone visible={list && list.length && list.filter(p => p.status).length === list.length}/>
         </div>
       </div>
       <List
