@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: Bradley Hand, cursive;
+  max-width: 1000px;
+  min-width: 900px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.header> .header-title,
+.header::before,
+.header > .header-btn{
+  flex-basis: 33%;
+}
+.header::before {
+  content: " ";
+}
+.all-done {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

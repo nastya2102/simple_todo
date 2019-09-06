@@ -1,0 +1,20 @@
+.point-input {
+    border: 0;
+    font-family: Bradley Hand, cursive;
+    font-size: 14px;
+    width: 300px;
+}
+.point-input:focus{
+    border: 0;
+    outline: 0;
+}
+.done-input{
+    text-decoration: line-through;
+}
+.point-container {
+    width: 400px;
+    display: flex;
+}
+.point-container span {
+    cursor: pointer;
+}

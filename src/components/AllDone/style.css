@@ -1,0 +1,12 @@
+.db{
+    background-image: url("https://i.giphy.com/media/ZUEaJDyaHNP5m/200w.webp");
+    display: block;
+}
+.dn {
+    background-image: url("https://i.giphy.com/media/3Ejml35FgDnGg/giphy.webp");
+}
+.blair {
+    background-size: 100%;
+    height: 110px;
+    width: 200px;
+}

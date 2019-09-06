@@ -1,0 +1,11 @@
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filter-btn-container{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
