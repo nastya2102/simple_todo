@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nastya2102/simple_todo/static/css/main.e790613d.chunk.css",
-    "main.js": "/nastya2102/simple_todo/static/js/main.70b5dd75.chunk.js",
-    "main.js.map": "/nastya2102/simple_todo/static/js/main.70b5dd75.chunk.js.map",
-    "runtime~main.js": "/nastya2102/simple_todo/static/js/runtime~main.a73edb5f.js",
-    "runtime~main.js.map": "/nastya2102/simple_todo/static/js/runtime~main.a73edb5f.js.map",
-    "static/js/2.285d6ce5.chunk.js": "/nastya2102/simple_todo/static/js/2.285d6ce5.chunk.js",
-    "static/js/2.285d6ce5.chunk.js.map": "/nastya2102/simple_todo/static/js/2.285d6ce5.chunk.js.map",
-    "index.html": "/nastya2102/simple_todo/index.html",
-    "precache-manifest.753ac083381efc3bad3102161222e66f.js": "/nastya2102/simple_todo/precache-manifest.753ac083381efc3bad3102161222e66f.js",
-    "service-worker.js": "/nastya2102/simple_todo/service-worker.js",
-    "static/css/main.e790613d.chunk.css.map": "/nastya2102/simple_todo/static/css/main.e790613d.chunk.css.map"
+    "main.css": "/simple_todo/static/css/main.e790613d.chunk.css",
+    "main.js": "/simple_todo/static/js/main.25a19771.chunk.js",
+    "main.js.map": "/simple_todo/static/js/main.25a19771.chunk.js.map",
+    "runtime~main.js": "/simple_todo/static/js/runtime~main.37af19fe.js",
+    "runtime~main.js.map": "/simple_todo/static/js/runtime~main.37af19fe.js.map",
+    "static/js/2.285d6ce5.chunk.js": "/simple_todo/static/js/2.285d6ce5.chunk.js",
+    "static/js/2.285d6ce5.chunk.js.map": "/simple_todo/static/js/2.285d6ce5.chunk.js.map",
+    "index.html": "/simple_todo/index.html",
+    "precache-manifest.c6d2d6b4cdab13a30c7bff189710745e.js": "/simple_todo/precache-manifest.c6d2d6b4cdab13a30c7bff189710745e.js",
+    "service-worker.js": "/simple_todo/service-worker.js",
+    "static/css/main.e790613d.chunk.css.map": "/simple_todo/static/css/main.e790613d.chunk.css.map"
   }
 }
